@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TemporaryLanding from './components/TemporaryLanding';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
       </div>
     </nav>
       <header className="App-header">
-
+        <TemporaryLanding />
       </header>
     </div>
   );
